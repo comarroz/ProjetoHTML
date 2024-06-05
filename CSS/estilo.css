@@ -1,0 +1,45 @@
+body{
+
+    background-color:aqua;/* cor do plano de fundo*/
+    color:rgb(13, 15, 14); /*cor da fonte */
+    font-size: 20px; /* tamanhp da fonte*/
+    margin: 0; /*Margem em relação a tela*/
+    
+}/* comentarios*/
+
+header{
+
+    border: 2px solid #000;
+    text-align: center; 
+    
+
+
+}/* Seletor do Cabeçalho*/
+
+li{
+    color: #fff;
+    list-style-type: none;/* Remover as Bolinhas de Tópicos */
+    display: inline;/*Transformar coluna em linhas*/
+    border: 2px solid #000;
+    padding: 20px;
+    background-color: #000;
+}
+
+li:hover{
+background-color: #444;
+font-size: 30px;
+font-family: 'Trebuchet MS' ; /* Definir uma fonte*/
+border: 10px solid #888;
+
+
+}/* Modifica o conteudo original da tag*/
+
+
+aside{
+
+    background-image: url("../IMAGENS/figura.jpg");
+    background-repeat: no-repeat;
+
+
+
+}
